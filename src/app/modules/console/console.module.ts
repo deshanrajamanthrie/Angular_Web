@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { ConsoleRoutingModule } from './console-routing.module';
 import { ConsoleComponent } from './console.component';
-import { ConsoleHeaderComponent } from './console-header/console-header.component';
-import { ConsoleFooterComponent } from './console-footer/console-footer.component';
+import { ConsoleHeaderComponent } from './components/console-header/console-header.component';
+import { ConsoleFooterComponent } from './components/console-footer/console-footer.component';
 
 
 @NgModule({
