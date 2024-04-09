@@ -1,0 +1,21 @@
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    height: 90vh;
+}
+.text-field{
+    width: 300px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 2px solid #D79A66; 
+}
+
+.login-btn{
+    width: 100px;
+    height: 30px;
+    background-color:#07303D;
+    color: #ffffff;
+}

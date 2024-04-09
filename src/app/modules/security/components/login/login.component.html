@@ -1,4 +1,12 @@
-<input type="email" placeholder="Email" [(ngModel)]="email"> |
-<input type="password" placeholder="password" [(ngModel)]="password"> |
-<button type="button" value="login" (click)="login()">Login</button>
 
+
+<div class="login-form">
+
+<h1>Login User</h1>
+<br>
+<input class="text-field" type="email" placeholder="Email" [(ngModel)]="email">
+<br>
+<input class="text-field" type="password" placeholder="password" [(ngModel)]="password">
+<br>
+<button class="login-btn" type="button" value="login" (click)="login()">Login</button>
+</div>

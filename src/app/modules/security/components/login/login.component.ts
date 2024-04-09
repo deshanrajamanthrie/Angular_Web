@@ -11,15 +11,14 @@ export class LoginComponent implements OnInit {
 
   email = '';
   password = '';
-
   constructor(private router: Router, private authService: AuthService) {
 
   }
+
   ngOnInit(): void {
     if (this.authService.isExistsToken('my-token')) {
       this.router.navigateByUrl('/console').then();
     }
-
   }
 
   login(): void {
